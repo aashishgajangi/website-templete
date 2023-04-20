@@ -5,6 +5,18 @@ body {
 .link-normalize {
     text-decoration: none;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.primary-navigation {
+  align-self: center;
+}
+.primary-navigation-list {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}
 @media (prefers-color-scheme: light) {
     .link-normalize {
       color: var(--light-theme-font-color);
