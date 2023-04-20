@@ -1,11 +1,12 @@
 body {
-    width: 80%;
-    margin: auto;
+    
 }
 .link-normalize {
     text-decoration: none;
 }
 .container {
+  width: 80%;
+    margin: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -27,3 +28,14 @@ body {
       color: var(--dark-theme-font-color);
     }
   }
+
+/* Section main-banner */
+.main-banner {
+  height: 800px;
+  width: 100%;
+  background: linear-gradient(48deg, #eaeceb, #252525);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 38s ease infinite;
+  animation: AnimationName 38s ease infinite;
+}
