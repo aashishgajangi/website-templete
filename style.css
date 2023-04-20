@@ -1,0 +1,17 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+.link-normalize {
+    text-decoration: none;
+}
+@media (prefers-color-scheme: light) {
+    .link-normalize {
+      color: var(--light-theme-font-color);
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    .link-normalize {
+      color: var(--dark-theme-font-color);
+    }
+  }
